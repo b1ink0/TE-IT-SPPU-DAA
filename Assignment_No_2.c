@@ -29,12 +29,12 @@ int main()
 {
     int V; // Number of vertices in graph
     int E; // Number of edges in graph
-    int graph[E][3];
 
     printf("Number of Vertices: ");
     scanf("%d", &V);
     printf("Number of Edges: ");
     scanf("%d", &E);
+    int graph[E][3];
 
     for(int i = 0; i < E; i++){
         printf("SRC NODE: ");
